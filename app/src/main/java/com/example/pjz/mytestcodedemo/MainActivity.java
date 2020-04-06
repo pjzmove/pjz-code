@@ -8,6 +8,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity implements View.OnClickListener{
     private Button mGetToastBt;
+    private Button mGetLogTxtBt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,10 +16,12 @@ public class MainActivity extends Activity implements View.OnClickListener{
         setContentView(R.layout.activity_main);
         initView();
         mGetToastBt.setOnClickListener(this);
+        mGetLogTxtBt.setOnClickListener(this);
     }
 
     private void initView() {
         mGetToastBt = (Button) findViewById(R.id.get_toast);
+        mGetLogTxtBt = (Button) findViewById(R.id.log_text);
     }
 
     @Override
@@ -26,6 +29,9 @@ public class MainActivity extends Activity implements View.OnClickListener{
         switch (view.getId()){
             case R.id.get_toast:
                 show("this is test demo");
+                break;
+            case R.id.log_text:
+
                 break;
             default:
                 break;
