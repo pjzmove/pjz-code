@@ -34,5 +34,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     private void show(String txt) {
         Toast.makeText(this,txt,Toast.LENGTH_SHORT).show();
+        Factory.getInstance();
     }
 }
