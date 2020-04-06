@@ -42,4 +42,8 @@ public class MainActivity extends Activity implements View.OnClickListener{
         Toast.makeText(this,txt,Toast.LENGTH_SHORT).show();
         Factory.getInstance();
     }
+
+    private void getInstance(){
+        Factory.getInstance();
+    }
 }
