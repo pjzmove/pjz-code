@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 show("this is a log button, if you click this button then output some message of this project debug");
                 break;
             case R.id.new_button:
-
+                show("this is new button");
                 break;
             default:
                 break;
