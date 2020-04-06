@@ -52,4 +52,6 @@ public class MainActivity extends Activity implements View.OnClickListener{
     private void getInstance(){
         Factory.getInstance();
     }
+
+    private void setMethod(){}
 }
