@@ -26,6 +26,10 @@ public class MainActivity extends Activity implements View.OnClickListener{
         mGetLogTxtBt = (Button) findViewById(R.id.log_text);
         mNewBt = (Button) findViewById(R.id.new_button);
         initaction();
+        initdisplay();
+    }
+
+    private void initdisplay() {
     }
 
     private void initaction() {
